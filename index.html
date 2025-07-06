@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antreprenor Starter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="hero">
+        <h1>Antreprenor Starter</h1>
+        <p id="subtitle">From ancient survival to modern solidarity – Nobody left behind.</p>
+<p>
+    In ancient tribes, when wild animals attacked, those left behind – often children – were the most vulnerable.
+    Today, Antreprenor Starter carries that same primal instinct into the digital age: to protect and lift up those just starting out.
+</p>
+    </header>
+
+    <nav class="tabs">
+        <button data-tab="story" class="active">Cristian’s Story</button>
+        <button data-tab="message">Your Turn</button>
+        <button data-tab="community">Future Community</button>
+    </nav>
+
+    <main>
+        <section id="story" class="tab-content active">
+            <h2>About Cristian</h2>
+            <p>
+                After 17 years in the corporate world (and a few spectacular ups & downs),
+                I realised the best way to heal a community is to empower its beginners.
+                Antreprenor&nbsp;Starter is my invitation to co‑create a fair, open playground
+                where efforts are rewarded transparently with the BART symbolic currency.
+            </p>
+        </section>
+
+        <section id="message" class="tab-content">
+            <h2>How can <em>you</em> shape this?</h2>
+            <p>
+                Whether you are 12 or 72, designer or beekeeper, your skill‑set is welcome.
+                Share what you can offer, tell us what you need, and describe the reward
+                you’d like in return – from BART tokens to heartfelt feedback.
+            </p>
+            <form id="signup-form">
+                <div class="field">
+                    <label>Name</label>
+                    <input type="text" name="name" required />
+                </div>
+                <div class="field">
+                    <label>Email</label>
+                    <input type="email" name="email" required />
+                </div>
+                <div class="field">
+                    <label>Age</label>
+                    <input type="number" name="age" min="8" max="118" />
+                </div>
+                <div class="field">
+                    <label>What can you offer?</label>
+                    <textarea name="offer" required></textarea>
+                </div>
+                <div class="field">
+                    <label>What do you need?</label>
+                    <textarea name="need"></textarea>
+                </div>
+                <div class="field">
+                    <label>What would you like in return?</label>
+                    <textarea name="reward"></textarea>
+                </div>
+                <button type="submit">Join early adopters</button>
+                <p id="form-msg" class="hidden">Thank you! Your entry is saved locally (for demo purposes).</p>
+            </form>
+        </section>
+
+        <section id="community" class="tab-content">
+            <h2>Early Adopters (demo)</h2>
+            <table id="demo-table">
+                <thead>
+                    <tr>
+                        <th>Name</th><th>Age</th><th>Offer</th><th>Need</th><th>Reward wanted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ava P.</td><td>17</td>
+                        <td>Logo sketches &amp; social media templates</td>
+                        <td>Mentoring in UI/UX</td>
+                        <td>Portfolio review + 300 BART</td>
+                    </tr>
+                    <tr>
+                        <td>Diego R.</td><td>28</td>
+                        <td>Spanish copywriting &amp; translation</td>
+                        <td>Legal advice for freelancing</td>
+                        <td>Experience letter</td>
+                    </tr>
+                    <tr>
+                        <td>Linh K.</td><td>34</td>
+                        <td>Front‑end coding workshops for teens</td>
+                        <td>Extra volunteers for summer camp</td>
+                        <td>Nothing – happy to help!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2025 Antreprenor Starter – All rights reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

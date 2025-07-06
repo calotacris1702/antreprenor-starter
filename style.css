@@ -1,0 +1,29 @@
+*{box-sizing:border-box;font-family:system-ui,Arial,sans-serif;margin:0;padding:0}
+body{color:#222;background:#fdfdfd;line-height:1.45}
+header.hero{padding:3rem 1rem;text-align:center;background:#f0f4ff}
+header.hero h1{font-size:2.5rem;margin-bottom:.5rem}
+header.hero p{font-size:1.1rem;opacity:.8}
+nav.tabs{display:flex;justify-content:center;gap:1rem;background:#fff;border-bottom:1px solid #ddd}
+nav.tabs button{background:none;border:none;padding:1rem 1.5rem;font-size:1rem;cursor:pointer;border-bottom:3px solid transparent}
+nav.tabs button.active{border-color:#0066ff;color:#0066ff;font-weight:600}
+main{max-width:960px;margin:2rem auto;padding:0 1rem}
+.tab-content{display:none;animation:fade .3s ease}
+.tab-content.active{display:block}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+h2{margin:1rem 0 .75rem;font-size:1.5rem}
+.field{display:flex;flex-direction:column;margin-bottom:.75rem}
+.field label{font-weight:600;margin-bottom:.25rem}
+input,textarea{padding:.5rem;border:1px solid #ccc;border-radius:4px;font-size:1rem}
+textarea{min-height:80px;resize:vertical}
+button[type="submit"]{background:#0066ff;color:#fff;border:none;padding:.75rem 1.5rem;border-radius:6px;font-size:1rem;cursor:pointer;margin-top:.5rem}
+button[type="submit"]:hover{opacity:.9}
+#form-msg{margin-top:.5rem;color:green}
+.hidden{display:none}
+table{width:100%;border-collapse:collapse;margin-top:1rem}
+th,td{border:1px solid #ddd;padding:.5rem;text-align:left}
+th{background:#f5f7ff}
+footer{margin:3rem 0;text-align:center;font-size:.8rem;opacity:.7}
+@media(max-width:600px){
+    header.hero h1{font-size:2rem}
+    nav.tabs button{padding:.75rem 1rem;font-size:.9rem}
+}
