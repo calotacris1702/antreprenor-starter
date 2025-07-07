@@ -7,35 +7,35 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- ─────────────────── HEADER ─────────────────── -->
   <header class="hero">
     <h1>Antreprenor Starter</h1>
     <p id="subtitle">
       From ancient survival to modern solidarity – Nobody left behind.
     </p>
     <p>
-      In ancient tribes, when wild animals attacked, those left behind – often
-      children – were the most vulnerable. Today, Antreprenor Starter carries
+      In ancient tribes, when wild animals attacked, those left behind—often
+      children—were the most vulnerable. Today, Antreprenor Starter carries
       that same primal instinct into the digital age: to protect and lift up
-      those just starting out.
+      anyone just starting out.
     </p>
   </header>
 
-  <!-- --------------  MANIFEST 2025 -------------- -->
+  <!-- ──────────────── MANIFEST 2025 ──────────────── -->
   <section id="manifest">
     <h2>Manifest 2025</h2>
     <p><strong>Because time should earn meaning, not just money.</strong></p>
     <p>
       Too many people trade their hours for wages that drain purpose and
-      creativity. Antreprenor Starter instantly matches any skill you describe –
-      in plain text – to the client who needs it, and pays you in cash right
-      away.
+      creativity. Antreprenor Starter instantly matches any skill you describe—
+      in plain text—to the client who needs it, and pays you in cash right away.
     </p>
     <p>
-      Soon, the same platform will let you swap time for value through
-      <em>BART</em> – a trust-and-time currency with near-zero friction.
+      Soon the same platform will let you swap time for value through
+      <em>BART</em>—a trust-and-time currency with near-zero friction.
     </p>
     <p>
-      No one left behind: children, parents, seniors – every skill or story can
+      No one left behind: children, parents, seniors—every skill or story can
       gain worth here.
     </p>
     <p>
@@ -43,19 +43,95 @@
       that finally works for people.</strong>
     </p>
   </section>
-  <!-- ------------------------------------------- -->
 
+  <!-- ─────────────────── TAB NAV ─────────────────── -->
   <nav class="tabs">
     <button data-tab="story" class="active">Cristian’s Story</button>
     <button data-tab="message">Your Turn</button>
     <button data-tab="community">Future Community</button>
   </nav>
 
+  <!-- ──────────────────── CONTENT ────────────────── -->
   <main>
-    <!-- rest of your sections rămân neschimbate -->
-    …
+    <!-- Cristian's Story -->
+    <section id="story" class="tab-content active">
+      <h2>About Cristian</h2>
+      <p>
+        After 17 years in the corporate world (and a few spectacular ups & downs),
+        I realised the best way to heal a community is to empower its beginners.
+        Antreprenor&nbsp;Starter is my invitation to co-create a fair, open
+        playground where efforts are rewarded transparently—first in cash, soon
+        in <em>BART</em>.
+      </p>
+    </section>
+
+    <!-- Your Turn -->
+    <section id="message" class="tab-content">
+      <h2>How can <em>you</em> shape this?</h2>
+      <p>
+        Share your skills, passions, or even a simple idea. This is a place for
+        starters, dreamers and doers alike.
+      </p>
+      <p>
+        We believe in fair exchange: what you offer matters, and what you need
+        is valid. Add your name to the early community by filling out this quick
+        form:
+      </p>
+      <ul>
+        <li>🧰 Skills you want to offer</li>
+        <li>🤝 What kind of help you’re looking for</li>
+        <li>🎁 What you’d like in return (cash, BART, or feedback)</li>
+      </ul>
+      <p>The form below is a prototype. Your ideas help shape the future of this platform.</p>
+
+      <form id="signup-form">
+        <div class="field">
+          <label>Name</label>
+          <input type="text" name="name" required />
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" name="email" required />
+        </div>
+        <div class="field">
+          <label>Age</label>
+          <input type="number" name="age" min="8" max="118" />
+        </div>
+        <div class="field">
+          <label>What can you offer?</label>
+          <textarea name="offer" required></textarea>
+        </div>
+        <div class="field">
+          <label>What do you need?</label>
+          <textarea name="need"></textarea>
+        </div>
+        <div class="field">
+          <label>What would you like in return?</label>
+          <textarea name="reward"></textarea>
+        </div>
+        <button type="submit">Join early adopters</button>
+        <p id="form-msg" class="hidden">
+          Thank you! Your entry is saved locally (for demo purposes).
+        </p>
+      </form>
+    </section>
+
+    <!-- Future Community -->
+    <section id="community" class="tab-content">
+      <h2>Where we’re going together</h2>
+      <p>This isn’t just a platform. It’s a growing ecosystem where:</p>
+      <ul>
+        <li>🌍 Time and skills are valued through <strong>BART</strong> – a symbolic currency built on trust</li>
+        <li>🎓 Young people get real experience and recognition</li>
+        <li>🤲 No contribution goes unnoticed – from a smile to a solved bug</li>
+      </ul>
+      <p>In the future, we imagine:</p>
+      <blockquote>A world where effort creates opportunity, not just invoices.</blockquote>
+      <p>If this resonates with you, welcome. You’re not late – you’re right on time.</p>
+    </section>
   </main>
 
+  <!-- ─────────────────── FOOTER ─────────────────── -->
   <footer>
     <small>&copy; 2025 Antreprenor Starter – All rights reserved.</small>
   </footer>
